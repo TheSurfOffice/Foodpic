@@ -1,0 +1,741 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		490A9A101A3772C900F2B929 /* libPods-EstimoteSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 490A9A0E1A3772C900F2B929 /* libPods-EstimoteSDK.a */; };
+		490A9A111A3772C900F2B929 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 490A9A0F1A3772C900F2B929 /* libPods.a */; };
+		490A9A131A3777AE00F2B929 /* mumbai.json in Resources */ = {isa = PBXBuildFile; fileRef = 490A9A121A3777AE00F2B929 /* mumbai.json */; };
+		490A9A1B1A387AF500F2B929 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490A9A1A1A387AF500F2B929 /* MenuItem.swift */; };
+		49203EE51A42F6ED0021BA39 /* mumbai_chocolate_twist.png in Resources */ = {isa = PBXBuildFile; fileRef = 49203ED21A42F6ED0021BA39 /* mumbai_chocolate_twist.png */; };
+		49203EE61A42F6ED0021BA39 /* mumbai_chocolate_with_ice_and_baileys.png in Resources */ = {isa = PBXBuildFile; fileRef = 49203ED31A42F6ED0021BA39 /* mumbai_chocolate_with_ice_and_baileys.png */; };
+		49203EE71A42F6ED0021BA39 /* mumbai_coco-loco_coctail.png in Resources */ = {isa = PBXBuildFile; fileRef = 49203ED41A42F6ED0021BA39 /* mumbai_coco-loco_coctail.png */; };
+		49203EE81A42F6ED0021BA39 /* mumbai_coctail_based_on_zacapa_rum.png in Resources */ = {isa = PBXBuildFile; fileRef = 49203ED51A42F6ED0021BA39 /* mumbai_coctail_based_on_zacapa_rum.png */; };
+		49203EE91A42F6ED0021BA39 /* mumbai_coffee_with_condensed_milk.png in Resources */ = {isa = PBXBuildFile; fileRef = 49203ED61A42F6ED0021BA39 /* mumbai_coffee_with_condensed_milk.png */; };
+		49203EEA1A42F6ED0021BA39 /* mumbai_coffee_with_milk.png in Resources */ = {isa = PBXBuildFile; fileRef = 49203ED71A42F6ED0021BA39 /* mumbai_coffee_with_milk.png */; };
+		49203EEB1A42F6ED0021BA39 /* mumbai_gin_tonic.png in Resources */ = {isa = PBXBuildFile; fileRef = 49203ED81A42F6ED0021BA39 /* mumbai_gin_tonic.png */; };
+		49203EEC1A42F6ED0021BA39 /* mumbai_huge_salad_with_ham.png in Resources */ = {isa = PBXBuildFile; fileRef = 49203ED91A42F6ED0021BA39 /* mumbai_huge_salad_with_ham.png */; };
+		49203EED1A42F6ED0021BA39 /* mumbai_mojito.png in Resources */ = {isa = PBXBuildFile; fileRef = 49203EDA1A42F6ED0021BA39 /* mumbai_mojito.png */; };
+		49203EEE1A42F6ED0021BA39 /* mumbai_radler_beer_tropical.png in Resources */ = {isa = PBXBuildFile; fileRef = 49203EDB1A42F6ED0021BA39 /* mumbai_radler_beer_tropical.png */; };
+		49203EEF1A42F6ED0021BA39 /* mumbai_salad_with_rocket_and_parmesan.png in Resources */ = {isa = PBXBuildFile; fileRef = 49203EDC1A42F6ED0021BA39 /* mumbai_salad_with_rocket_and_parmesan.png */; };
+		49203EF01A42F6ED0021BA39 /* mumbai_salad_with_tomato_avocado_and_cheese.png in Resources */ = {isa = PBXBuildFile; fileRef = 49203EDD1A42F6ED0021BA39 /* mumbai_salad_with_tomato_avocado_and_cheese.png */; };
+		49203EF11A42F6ED0021BA39 /* mumbai_sandwich_with_avocado_and_philadelfia.png in Resources */ = {isa = PBXBuildFile; fileRef = 49203EDE1A42F6ED0021BA39 /* mumbai_sandwich_with_avocado_and_philadelfia.png */; };
+		49203EF21A42F6ED0021BA39 /* mumbai_sandwich_with_spanish_ham.png in Resources */ = {isa = PBXBuildFile; fileRef = 49203EDF1A42F6ED0021BA39 /* mumbai_sandwich_with_spanish_ham.png */; };
+		49203EF31A42F6ED0021BA39 /* mumbai_sandwich_with_tortilla.png in Resources */ = {isa = PBXBuildFile; fileRef = 49203EE01A42F6ED0021BA39 /* mumbai_sandwich_with_tortilla.png */; };
+		49203EF41A42F6ED0021BA39 /* mumbai_tortilla_chips_with_guacamole.png in Resources */ = {isa = PBXBuildFile; fileRef = 49203EE11A42F6ED0021BA39 /* mumbai_tortilla_chips_with_guacamole.png */; };
+		49203EF51A42F6ED0021BA39 /* mumbai_triple_sandwich_with_tortilla_chips.png in Resources */ = {isa = PBXBuildFile; fileRef = 49203EE21A42F6ED0021BA39 /* mumbai_triple_sandwich_with_tortilla_chips.png */; };
+		49203EF61A42F6ED0021BA39 /* mumbai_tropical_beer.png in Resources */ = {isa = PBXBuildFile; fileRef = 49203EE31A42F6ED0021BA39 /* mumbai_tropical_beer.png */; };
+		49203EF71A42F6ED0021BA39 /* mumbai_tuna_salad.png in Resources */ = {isa = PBXBuildFile; fileRef = 49203EE41A42F6ED0021BA39 /* mumbai_tuna_salad.png */; };
+		495CA6391A421A1300C02BF7 /* nautilus.json in Resources */ = {isa = PBXBuildFile; fileRef = 495CA6381A421A1300C02BF7 /* nautilus.json */; };
+		495CA64A1A421D3800C02BF7 /* nautilus_black_rice_with_squid.png in Resources */ = {isa = PBXBuildFile; fileRef = 495CA63A1A421D3800C02BF7 /* nautilus_black_rice_with_squid.png */; };
+		495CA64B1A421D3800C02BF7 /* nautilus_cheese_with_pesto.png in Resources */ = {isa = PBXBuildFile; fileRef = 495CA63B1A421D3800C02BF7 /* nautilus_cheese_with_pesto.png */; };
+		495CA64C1A421D3800C02BF7 /* nautilus_chocolate_mousse.png in Resources */ = {isa = PBXBuildFile; fileRef = 495CA63C1A421D3800C02BF7 /* nautilus_chocolate_mousse.png */; };
+		495CA64D1A421D3800C02BF7 /* nautilus_couscous_with_sama_fish.png in Resources */ = {isa = PBXBuildFile; fileRef = 495CA63D1A421D3800C02BF7 /* nautilus_couscous_with_sama_fish.png */; };
+		495CA64E1A421D3800C02BF7 /* nautilus_creme_brulee_with_ice_cream.png in Resources */ = {isa = PBXBuildFile; fileRef = 495CA63E1A421D3800C02BF7 /* nautilus_creme_brulee_with_ice_cream.png */; };
+		495CA64F1A421D3800C02BF7 /* nautilus_fideua_noodles_with_seafood.png in Resources */ = {isa = PBXBuildFile; fileRef = 495CA63F1A421D3800C02BF7 /* nautilus_fideua_noodles_with_seafood.png */; };
+		495CA6501A421D3800C02BF7 /* nautilus_fish_with_salad.png in Resources */ = {isa = PBXBuildFile; fileRef = 495CA6401A421D3800C02BF7 /* nautilus_fish_with_salad.png */; };
+		495CA6511A421D3800C02BF7 /* nautilus_fresh_fish.png in Resources */ = {isa = PBXBuildFile; fileRef = 495CA6411A421D3800C02BF7 /* nautilus_fresh_fish.png */; };
+		495CA6521A421D3800C02BF7 /* nautilus_hake_fish.png in Resources */ = {isa = PBXBuildFile; fileRef = 495CA6421A421D3800C02BF7 /* nautilus_hake_fish.png */; };
+		495CA6531A421D3800C02BF7 /* nautilus_octopus_with_mojo_sauce.png in Resources */ = {isa = PBXBuildFile; fileRef = 495CA6431A421D3800C02BF7 /* nautilus_octopus_with_mojo_sauce.png */; };
+		495CA6541A421D3800C02BF7 /* nautilus_red_tuna.png in Resources */ = {isa = PBXBuildFile; fileRef = 495CA6441A421D3800C02BF7 /* nautilus_red_tuna.png */; };
+		495CA6551A421D3800C02BF7 /* nautilus_russian_salad_with_seafood.png in Resources */ = {isa = PBXBuildFile; fileRef = 495CA6451A421D3800C02BF7 /* nautilus_russian_salad_with_seafood.png */; };
+		495CA6561A421D3800C02BF7 /* nautilus_salt_mushrooms_with_shrimps.png in Resources */ = {isa = PBXBuildFile; fileRef = 495CA6461A421D3800C02BF7 /* nautilus_salt_mushrooms_with_shrimps.png */; };
+		495CA6571A421D3800C02BF7 /* nautilus_tataki_of_red_tuna.png in Resources */ = {isa = PBXBuildFile; fileRef = 495CA6471A421D3800C02BF7 /* nautilus_tataki_of_red_tuna.png */; };
+		495CA6581A421D3800C02BF7 /* nautilus_thai_style_shrimps.png in Resources */ = {isa = PBXBuildFile; fileRef = 495CA6481A421D3800C02BF7 /* nautilus_thai_style_shrimps.png */; };
+		495CA6591A421D3800C02BF7 /* nautilus_tuna_tartare.png in Resources */ = {isa = PBXBuildFile; fileRef = 495CA6491A421D3800C02BF7 /* nautilus_tuna_tartare.png */; };
+		49918CD31A38BD2E00444C97 /* MenuItemSwitcherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49918CD21A38BD2E00444C97 /* MenuItemSwitcherViewController.swift */; };
+		B2BAA9C419A0BABE0070C51E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2BAA9C219A0BABE0070C51E /* Main.storyboard */; };
+		B2BAA9C619A0BABE0070C51E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2BAA9C519A0BABE0070C51E /* Images.xcassets */; };
+		B2BAA9E619A0D28B0070C51E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BAA9DD19A0D28B0070C51E /* AppDelegate.swift */; };
+		B2BAA9E719A0D28B0070C51E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2BAA9DF19A0D28B0070C51E /* Main.storyboard */; };
+		B2BAA9E919A0D28B0070C51E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BAA9E519A0D28B0070C51E /* ViewController.swift */; };
+		B2BAA9EB19A0D2AF0070C51E /* MMBeaconManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BAA9EA19A0D2AF0070C51E /* MMBeaconManager.swift */; };
+		B2BAA9ED19A0D48D0070C51E /* MMBeaconAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BAA9EC19A0D48D0070C51E /* MMBeaconAction.swift */; };
+		B2BAA9EF19A0D4A00070C51E /* MMBeacon.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BAA9EE19A0D4A00070C51E /* MMBeacon.swift */; };
+		B2BAA9F119A0D4AD0070C51E /* MMBeaconsArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BAA9F019A0D4AD0070C51E /* MMBeaconsArray.swift */; };
+		B2BAAA0719A0D7690070C51E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2BAAA0619A0D7690070C51E /* SystemConfiguration.framework */; };
+		B2BAAA0919A0D76E0070C51E /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2BAAA0819A0D76E0070C51E /* CoreBluetooth.framework */; };
+		B2BAAA0B19A0D7720070C51E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2BAAA0A19A0D7720070C51E /* CoreLocation.framework */; };
+		B2BAAA0D19A0DE750070C51E /* beacons.json in Resources */ = {isa = PBXBuildFile; fileRef = B2BAAA0C19A0DE750070C51E /* beacons.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B2BAA9CC19A0BABE0070C51E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2BAA9B119A0BABE0070C51E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2BAA9B819A0BABE0070C51E;
+			remoteInfo = Foodpic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		490A9A0E1A3772C900F2B929 /* libPods-EstimoteSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-EstimoteSDK.a"; path = "Pods/build/Debug-iphoneos/libPods-EstimoteSDK.a"; sourceTree = "<group>"; };
+		490A9A0F1A3772C900F2B929 /* libPods.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPods.a; path = "Pods/build/Debug-iphoneos/libPods.a"; sourceTree = "<group>"; };
+		490A9A121A3777AE00F2B929 /* mumbai.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mumbai.json; sourceTree = "<group>"; };
+		490A9A1A1A387AF500F2B929 /* MenuItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		49203ED21A42F6ED0021BA39 /* mumbai_chocolate_twist.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mumbai_chocolate_twist.png; sourceTree = "<group>"; };
+		49203ED31A42F6ED0021BA39 /* mumbai_chocolate_with_ice_and_baileys.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mumbai_chocolate_with_ice_and_baileys.png; sourceTree = "<group>"; };
+		49203ED41A42F6ED0021BA39 /* mumbai_coco-loco_coctail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mumbai_coco-loco_coctail.png"; sourceTree = "<group>"; };
+		49203ED51A42F6ED0021BA39 /* mumbai_coctail_based_on_zacapa_rum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mumbai_coctail_based_on_zacapa_rum.png; sourceTree = "<group>"; };
+		49203ED61A42F6ED0021BA39 /* mumbai_coffee_with_condensed_milk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mumbai_coffee_with_condensed_milk.png; sourceTree = "<group>"; };
+		49203ED71A42F6ED0021BA39 /* mumbai_coffee_with_milk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mumbai_coffee_with_milk.png; sourceTree = "<group>"; };
+		49203ED81A42F6ED0021BA39 /* mumbai_gin_tonic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mumbai_gin_tonic.png; sourceTree = "<group>"; };
+		49203ED91A42F6ED0021BA39 /* mumbai_huge_salad_with_ham.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mumbai_huge_salad_with_ham.png; sourceTree = "<group>"; };
+		49203EDA1A42F6ED0021BA39 /* mumbai_mojito.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mumbai_mojito.png; sourceTree = "<group>"; };
+		49203EDB1A42F6ED0021BA39 /* mumbai_radler_beer_tropical.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mumbai_radler_beer_tropical.png; sourceTree = "<group>"; };
+		49203EDC1A42F6ED0021BA39 /* mumbai_salad_with_rocket_and_parmesan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mumbai_salad_with_rocket_and_parmesan.png; sourceTree = "<group>"; };
+		49203EDD1A42F6ED0021BA39 /* mumbai_salad_with_tomato_avocado_and_cheese.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mumbai_salad_with_tomato_avocado_and_cheese.png; sourceTree = "<group>"; };
+		49203EDE1A42F6ED0021BA39 /* mumbai_sandwich_with_avocado_and_philadelfia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mumbai_sandwich_with_avocado_and_philadelfia.png; sourceTree = "<group>"; };
+		49203EDF1A42F6ED0021BA39 /* mumbai_sandwich_with_spanish_ham.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mumbai_sandwich_with_spanish_ham.png; sourceTree = "<group>"; };
+		49203EE01A42F6ED0021BA39 /* mumbai_sandwich_with_tortilla.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mumbai_sandwich_with_tortilla.png; sourceTree = "<group>"; };
+		49203EE11A42F6ED0021BA39 /* mumbai_tortilla_chips_with_guacamole.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mumbai_tortilla_chips_with_guacamole.png; sourceTree = "<group>"; };
+		49203EE21A42F6ED0021BA39 /* mumbai_triple_sandwich_with_tortilla_chips.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mumbai_triple_sandwich_with_tortilla_chips.png; sourceTree = "<group>"; };
+		49203EE31A42F6ED0021BA39 /* mumbai_tropical_beer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mumbai_tropical_beer.png; sourceTree = "<group>"; };
+		49203EE41A42F6ED0021BA39 /* mumbai_tuna_salad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mumbai_tuna_salad.png; sourceTree = "<group>"; };
+		495CA6381A421A1300C02BF7 /* nautilus.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = nautilus.json; sourceTree = "<group>"; };
+		495CA63A1A421D3800C02BF7 /* nautilus_black_rice_with_squid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nautilus_black_rice_with_squid.png; sourceTree = "<group>"; };
+		495CA63B1A421D3800C02BF7 /* nautilus_cheese_with_pesto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nautilus_cheese_with_pesto.png; sourceTree = "<group>"; };
+		495CA63C1A421D3800C02BF7 /* nautilus_chocolate_mousse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nautilus_chocolate_mousse.png; sourceTree = "<group>"; };
+		495CA63D1A421D3800C02BF7 /* nautilus_couscous_with_sama_fish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nautilus_couscous_with_sama_fish.png; sourceTree = "<group>"; };
+		495CA63E1A421D3800C02BF7 /* nautilus_creme_brulee_with_ice_cream.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nautilus_creme_brulee_with_ice_cream.png; sourceTree = "<group>"; };
+		495CA63F1A421D3800C02BF7 /* nautilus_fideua_noodles_with_seafood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nautilus_fideua_noodles_with_seafood.png; sourceTree = "<group>"; };
+		495CA6401A421D3800C02BF7 /* nautilus_fish_with_salad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nautilus_fish_with_salad.png; sourceTree = "<group>"; };
+		495CA6411A421D3800C02BF7 /* nautilus_fresh_fish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nautilus_fresh_fish.png; sourceTree = "<group>"; };
+		495CA6421A421D3800C02BF7 /* nautilus_hake_fish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nautilus_hake_fish.png; sourceTree = "<group>"; };
+		495CA6431A421D3800C02BF7 /* nautilus_octopus_with_mojo_sauce.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nautilus_octopus_with_mojo_sauce.png; sourceTree = "<group>"; };
+		495CA6441A421D3800C02BF7 /* nautilus_red_tuna.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nautilus_red_tuna.png; sourceTree = "<group>"; };
+		495CA6451A421D3800C02BF7 /* nautilus_russian_salad_with_seafood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nautilus_russian_salad_with_seafood.png; sourceTree = "<group>"; };
+		495CA6461A421D3800C02BF7 /* nautilus_salt_mushrooms_with_shrimps.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nautilus_salt_mushrooms_with_shrimps.png; sourceTree = "<group>"; };
+		495CA6471A421D3800C02BF7 /* nautilus_tataki_of_red_tuna.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nautilus_tataki_of_red_tuna.png; sourceTree = "<group>"; };
+		495CA6481A421D3800C02BF7 /* nautilus_thai_style_shrimps.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nautilus_thai_style_shrimps.png; sourceTree = "<group>"; };
+		495CA6491A421D3800C02BF7 /* nautilus_tuna_tartare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nautilus_tuna_tartare.png; sourceTree = "<group>"; };
+		49918CD21A38BD2E00444C97 /* MenuItemSwitcherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuItemSwitcherViewController.swift; sourceTree = "<group>"; };
+		547B3CFFB203CDF7511A8D06 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		B1BB0271B207423F035AF07A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2BAA9B919A0BABE0070C51E /* Foodpic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Foodpic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2BAA9BD19A0BABE0070C51E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2BAA9C319A0BABE0070C51E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B2BAA9C519A0BABE0070C51E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B2BAA9CB19A0BABE0070C51E /* FoodpicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodpicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2BAA9D019A0BABE0070C51E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2BAA9DD19A0D28B0070C51E /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B2BAA9E019A0D28B0070C51E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		B2BAA9E519A0D28B0070C51E /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B2BAA9EA19A0D2AF0070C51E /* MMBeaconManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMBeaconManager.swift; sourceTree = "<group>"; };
+		B2BAA9EC19A0D48D0070C51E /* MMBeaconAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMBeaconAction.swift; sourceTree = "<group>"; };
+		B2BAA9EE19A0D4A00070C51E /* MMBeacon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMBeacon.swift; sourceTree = "<group>"; };
+		B2BAA9F019A0D4AD0070C51E /* MMBeaconsArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMBeaconsArray.swift; sourceTree = "<group>"; };
+		B2BAAA0519A0D6930070C51E /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		B2BAAA0619A0D7690070C51E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		B2BAAA0819A0D76E0070C51E /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		B2BAAA0A19A0D7720070C51E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		B2BAAA0C19A0DE750070C51E /* beacons.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = beacons.json; sourceTree = "<group>"; };
+		CA4FCD6C56DF3E41079B6F57 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		CED8E7D35A1DE188698014D7 /* libPods-Foodpic.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Foodpic.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2BAA9B619A0BABE0070C51E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				490A9A101A3772C900F2B929 /* libPods-EstimoteSDK.a in Frameworks */,
+				490A9A111A3772C900F2B929 /* libPods.a in Frameworks */,
+				B2BAAA0B19A0D7720070C51E /* CoreLocation.framework in Frameworks */,
+				B2BAAA0919A0D76E0070C51E /* CoreBluetooth.framework in Frameworks */,
+				B2BAAA0719A0D7690070C51E /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2BAA9C819A0BABE0070C51E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37EBC5EBDD052AC7B071075F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				490A9A0E1A3772C900F2B929 /* libPods-EstimoteSDK.a */,
+				490A9A0F1A3772C900F2B929 /* libPods.a */,
+				B1BB0271B207423F035AF07A /* libPods.a */,
+				CED8E7D35A1DE188698014D7 /* libPods-Foodpic.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8325A235B2FEC5E5F368F52A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CA4FCD6C56DF3E41079B6F57 /* Pods.debug.xcconfig */,
+				547B3CFFB203CDF7511A8D06 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B2BAA9B019A0BABE0070C51E = {
+			isa = PBXGroup;
+			children = (
+				B2BAAA0A19A0D7720070C51E /* CoreLocation.framework */,
+				B2BAAA0819A0D76E0070C51E /* CoreBluetooth.framework */,
+				B2BAAA0619A0D7690070C51E /* SystemConfiguration.framework */,
+				B2BAA9BB19A0BABE0070C51E /* Foodpic */,
+				B2BAA9CE19A0BABE0070C51E /* FoodpicTests */,
+				B2BAA9BA19A0BABE0070C51E /* Products */,
+				8325A235B2FEC5E5F368F52A /* Pods */,
+				37EBC5EBDD052AC7B071075F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B2BAA9BA19A0BABE0070C51E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2BAA9B919A0BABE0070C51E /* Foodpic.app */,
+				B2BAA9CB19A0BABE0070C51E /* FoodpicTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2BAA9BB19A0BABE0070C51E /* Foodpic */ = {
+			isa = PBXGroup;
+			children = (
+				B2BAA9DB19A0D28B0070C51E /* Additions */,
+				B2BAA9DC19A0D28B0070C51E /* Application */,
+				B2BAA9DE19A0D28B0070C51E /* Base.lproj */,
+				B2BAA9E119A0D28B0070C51E /* Beacons */,
+				B2BAA9E419A0D28B0070C51E /* ViewControllers */,
+				B2BAA9C219A0BABE0070C51E /* Main.storyboard */,
+				B2BAA9C519A0BABE0070C51E /* Images.xcassets */,
+				B2BAA9BC19A0BABE0070C51E /* Supporting Files */,
+			);
+			path = Foodpic;
+			sourceTree = "<group>";
+		};
+		B2BAA9BC19A0BABE0070C51E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				49203ED21A42F6ED0021BA39 /* mumbai_chocolate_twist.png */,
+				49203ED31A42F6ED0021BA39 /* mumbai_chocolate_with_ice_and_baileys.png */,
+				49203ED41A42F6ED0021BA39 /* mumbai_coco-loco_coctail.png */,
+				49203ED51A42F6ED0021BA39 /* mumbai_coctail_based_on_zacapa_rum.png */,
+				49203ED61A42F6ED0021BA39 /* mumbai_coffee_with_condensed_milk.png */,
+				49203ED71A42F6ED0021BA39 /* mumbai_coffee_with_milk.png */,
+				49203ED81A42F6ED0021BA39 /* mumbai_gin_tonic.png */,
+				49203ED91A42F6ED0021BA39 /* mumbai_huge_salad_with_ham.png */,
+				49203EDA1A42F6ED0021BA39 /* mumbai_mojito.png */,
+				49203EDB1A42F6ED0021BA39 /* mumbai_radler_beer_tropical.png */,
+				49203EDC1A42F6ED0021BA39 /* mumbai_salad_with_rocket_and_parmesan.png */,
+				49203EDD1A42F6ED0021BA39 /* mumbai_salad_with_tomato_avocado_and_cheese.png */,
+				49203EDE1A42F6ED0021BA39 /* mumbai_sandwich_with_avocado_and_philadelfia.png */,
+				49203EDF1A42F6ED0021BA39 /* mumbai_sandwich_with_spanish_ham.png */,
+				49203EE01A42F6ED0021BA39 /* mumbai_sandwich_with_tortilla.png */,
+				49203EE11A42F6ED0021BA39 /* mumbai_tortilla_chips_with_guacamole.png */,
+				49203EE21A42F6ED0021BA39 /* mumbai_triple_sandwich_with_tortilla_chips.png */,
+				49203EE31A42F6ED0021BA39 /* mumbai_tropical_beer.png */,
+				49203EE41A42F6ED0021BA39 /* mumbai_tuna_salad.png */,
+				495CA63A1A421D3800C02BF7 /* nautilus_black_rice_with_squid.png */,
+				495CA63B1A421D3800C02BF7 /* nautilus_cheese_with_pesto.png */,
+				495CA63C1A421D3800C02BF7 /* nautilus_chocolate_mousse.png */,
+				495CA63D1A421D3800C02BF7 /* nautilus_couscous_with_sama_fish.png */,
+				495CA63E1A421D3800C02BF7 /* nautilus_creme_brulee_with_ice_cream.png */,
+				495CA63F1A421D3800C02BF7 /* nautilus_fideua_noodles_with_seafood.png */,
+				495CA6401A421D3800C02BF7 /* nautilus_fish_with_salad.png */,
+				495CA6411A421D3800C02BF7 /* nautilus_fresh_fish.png */,
+				495CA6421A421D3800C02BF7 /* nautilus_hake_fish.png */,
+				495CA6431A421D3800C02BF7 /* nautilus_octopus_with_mojo_sauce.png */,
+				495CA6441A421D3800C02BF7 /* nautilus_red_tuna.png */,
+				495CA6451A421D3800C02BF7 /* nautilus_russian_salad_with_seafood.png */,
+				495CA6461A421D3800C02BF7 /* nautilus_salt_mushrooms_with_shrimps.png */,
+				495CA6471A421D3800C02BF7 /* nautilus_tataki_of_red_tuna.png */,
+				495CA6481A421D3800C02BF7 /* nautilus_thai_style_shrimps.png */,
+				495CA6491A421D3800C02BF7 /* nautilus_tuna_tartare.png */,
+				B2BAAA0C19A0DE750070C51E /* beacons.json */,
+				B2BAA9BD19A0BABE0070C51E /* Info.plist */,
+				490A9A121A3777AE00F2B929 /* mumbai.json */,
+				495CA6381A421A1300C02BF7 /* nautilus.json */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B2BAA9CE19A0BABE0070C51E /* FoodpicTests */ = {
+			isa = PBXGroup;
+			children = (
+				B2BAA9CF19A0BABE0070C51E /* Supporting Files */,
+			);
+			path = FoodpicTests;
+			sourceTree = "<group>";
+		};
+		B2BAA9CF19A0BABE0070C51E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2BAA9D019A0BABE0070C51E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B2BAA9DB19A0D28B0070C51E /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Additions;
+			sourceTree = "<group>";
+		};
+		B2BAA9DC19A0D28B0070C51E /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				B2BAA9DD19A0D28B0070C51E /* AppDelegate.swift */,
+				B2BAAA0519A0D6930070C51E /* Bridging-Header.h */,
+				490A9A1A1A387AF500F2B929 /* MenuItem.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		B2BAA9DE19A0D28B0070C51E /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				B2BAA9DF19A0D28B0070C51E /* Main.storyboard */,
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+		B2BAA9E119A0D28B0070C51E /* Beacons */ = {
+			isa = PBXGroup;
+			children = (
+				B2BAA9EA19A0D2AF0070C51E /* MMBeaconManager.swift */,
+				B2BAA9EC19A0D48D0070C51E /* MMBeaconAction.swift */,
+				B2BAA9EE19A0D4A00070C51E /* MMBeacon.swift */,
+				B2BAA9F019A0D4AD0070C51E /* MMBeaconsArray.swift */,
+			);
+			path = Beacons;
+			sourceTree = "<group>";
+		};
+		B2BAA9E419A0D28B0070C51E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B2BAA9E519A0D28B0070C51E /* ViewController.swift */,
+				49918CD21A38BD2E00444C97 /* MenuItemSwitcherViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2BAA9B819A0BABE0070C51E /* Foodpic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2BAA9D519A0BABE0070C51E /* Build configuration list for PBXNativeTarget "Foodpic" */;
+			buildPhases = (
+				F47C13CC341FCD9CE000A6A9 /* Check Pods Manifest.lock */,
+				B2BAA9B519A0BABE0070C51E /* Sources */,
+				B2BAA9B619A0BABE0070C51E /* Frameworks */,
+				B2BAA9B719A0BABE0070C51E /* Resources */,
+				237C35F60AE94E34ACBD474F /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Foodpic;
+			productName = Foodpic;
+			productReference = B2BAA9B919A0BABE0070C51E /* Foodpic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B2BAA9CA19A0BABE0070C51E /* FoodpicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2BAA9D819A0BABE0070C51E /* Build configuration list for PBXNativeTarget "FoodpicTests" */;
+			buildPhases = (
+				B2BAA9C719A0BABE0070C51E /* Sources */,
+				B2BAA9C819A0BABE0070C51E /* Frameworks */,
+				B2BAA9C919A0BABE0070C51E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2BAA9CD19A0BABE0070C51E /* PBXTargetDependency */,
+			);
+			name = FoodpicTests;
+			productName = FoodpicTests;
+			productReference = B2BAA9CB19A0BABE0070C51E /* FoodpicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2BAA9B119A0BABE0070C51E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "The Surf Office";
+				TargetAttributes = {
+					B2BAA9B819A0BABE0070C51E = {
+						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = 2W8X9W22V5;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					B2BAA9CA19A0BABE0070C51E = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = B2BAA9B819A0BABE0070C51E;
+					};
+				};
+			};
+			buildConfigurationList = B2BAA9B419A0BABE0070C51E /* Build configuration list for PBXProject "Foodpic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B2BAA9B019A0BABE0070C51E;
+			productRefGroup = B2BAA9BA19A0BABE0070C51E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2BAA9B819A0BABE0070C51E /* Foodpic */,
+				B2BAA9CA19A0BABE0070C51E /* FoodpicTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2BAA9B719A0BABE0070C51E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49203EEE1A42F6ED0021BA39 /* mumbai_radler_beer_tropical.png in Resources */,
+				495CA64A1A421D3800C02BF7 /* nautilus_black_rice_with_squid.png in Resources */,
+				495CA6501A421D3800C02BF7 /* nautilus_fish_with_salad.png in Resources */,
+				495CA6561A421D3800C02BF7 /* nautilus_salt_mushrooms_with_shrimps.png in Resources */,
+				495CA6551A421D3800C02BF7 /* nautilus_russian_salad_with_seafood.png in Resources */,
+				495CA64F1A421D3800C02BF7 /* nautilus_fideua_noodles_with_seafood.png in Resources */,
+				B2BAA9E719A0D28B0070C51E /* Main.storyboard in Resources */,
+				49203EF31A42F6ED0021BA39 /* mumbai_sandwich_with_tortilla.png in Resources */,
+				495CA64C1A421D3800C02BF7 /* nautilus_chocolate_mousse.png in Resources */,
+				49203EE51A42F6ED0021BA39 /* mumbai_chocolate_twist.png in Resources */,
+				49203EEB1A42F6ED0021BA39 /* mumbai_gin_tonic.png in Resources */,
+				49203EE71A42F6ED0021BA39 /* mumbai_coco-loco_coctail.png in Resources */,
+				49203EF51A42F6ED0021BA39 /* mumbai_triple_sandwich_with_tortilla_chips.png in Resources */,
+				49203EED1A42F6ED0021BA39 /* mumbai_mojito.png in Resources */,
+				49203EEC1A42F6ED0021BA39 /* mumbai_huge_salad_with_ham.png in Resources */,
+				495CA6391A421A1300C02BF7 /* nautilus.json in Resources */,
+				49203EF61A42F6ED0021BA39 /* mumbai_tropical_beer.png in Resources */,
+				495CA6531A421D3800C02BF7 /* nautilus_octopus_with_mojo_sauce.png in Resources */,
+				495CA6591A421D3800C02BF7 /* nautilus_tuna_tartare.png in Resources */,
+				B2BAA9C419A0BABE0070C51E /* Main.storyboard in Resources */,
+				49203EF01A42F6ED0021BA39 /* mumbai_salad_with_tomato_avocado_and_cheese.png in Resources */,
+				495CA6521A421D3800C02BF7 /* nautilus_hake_fish.png in Resources */,
+				49203EE61A42F6ED0021BA39 /* mumbai_chocolate_with_ice_and_baileys.png in Resources */,
+				49203EE91A42F6ED0021BA39 /* mumbai_coffee_with_condensed_milk.png in Resources */,
+				495CA6571A421D3800C02BF7 /* nautilus_tataki_of_red_tuna.png in Resources */,
+				B2BAA9C619A0BABE0070C51E /* Images.xcassets in Resources */,
+				495CA64E1A421D3800C02BF7 /* nautilus_creme_brulee_with_ice_cream.png in Resources */,
+				495CA64D1A421D3800C02BF7 /* nautilus_couscous_with_sama_fish.png in Resources */,
+				49203EF41A42F6ED0021BA39 /* mumbai_tortilla_chips_with_guacamole.png in Resources */,
+				B2BAAA0D19A0DE750070C51E /* beacons.json in Resources */,
+				49203EF71A42F6ED0021BA39 /* mumbai_tuna_salad.png in Resources */,
+				490A9A131A3777AE00F2B929 /* mumbai.json in Resources */,
+				49203EEF1A42F6ED0021BA39 /* mumbai_salad_with_rocket_and_parmesan.png in Resources */,
+				495CA64B1A421D3800C02BF7 /* nautilus_cheese_with_pesto.png in Resources */,
+				49203EEA1A42F6ED0021BA39 /* mumbai_coffee_with_milk.png in Resources */,
+				49203EE81A42F6ED0021BA39 /* mumbai_coctail_based_on_zacapa_rum.png in Resources */,
+				49203EF21A42F6ED0021BA39 /* mumbai_sandwich_with_spanish_ham.png in Resources */,
+				495CA6581A421D3800C02BF7 /* nautilus_thai_style_shrimps.png in Resources */,
+				495CA6511A421D3800C02BF7 /* nautilus_fresh_fish.png in Resources */,
+				495CA6541A421D3800C02BF7 /* nautilus_red_tuna.png in Resources */,
+				49203EF11A42F6ED0021BA39 /* mumbai_sandwich_with_avocado_and_philadelfia.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2BAA9C919A0BABE0070C51E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		237C35F60AE94E34ACBD474F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F47C13CC341FCD9CE000A6A9 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2BAA9B519A0BABE0070C51E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2BAA9E919A0D28B0070C51E /* ViewController.swift in Sources */,
+				B2BAA9EB19A0D2AF0070C51E /* MMBeaconManager.swift in Sources */,
+				B2BAA9E619A0D28B0070C51E /* AppDelegate.swift in Sources */,
+				B2BAA9EF19A0D4A00070C51E /* MMBeacon.swift in Sources */,
+				B2BAA9ED19A0D48D0070C51E /* MMBeaconAction.swift in Sources */,
+				49918CD31A38BD2E00444C97 /* MenuItemSwitcherViewController.swift in Sources */,
+				B2BAA9F119A0D4AD0070C51E /* MMBeaconsArray.swift in Sources */,
+				490A9A1B1A387AF500F2B929 /* MenuItem.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2BAA9C719A0BABE0070C51E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B2BAA9CD19A0BABE0070C51E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2BAA9B819A0BABE0070C51E /* Foodpic */;
+			targetProxy = B2BAA9CC19A0BABE0070C51E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B2BAA9C219A0BABE0070C51E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2BAA9C319A0BABE0070C51E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B2BAA9DF19A0D28B0070C51E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2BAA9E019A0D28B0070C51E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B2BAA9D319A0BABE0070C51E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B2BAA9D419A0BABE0070C51E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B2BAA9D619A0BABE0070C51E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA4FCD6C56DF3E41079B6F57 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Foodpic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/build/Debug-iphoneos",
+				);
+				PRODUCT_NAME = Foodpic;
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Foodpic/Application/Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		B2BAA9D719A0BABE0070C51E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 547B3CFFB203CDF7511A8D06 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Foodpic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/build/Debug-iphoneos",
+				);
+				PRODUCT_NAME = Foodpic;
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Foodpic/Application/Bridging-Header.h";
+			};
+			name = Release;
+		};
+		B2BAA9D919A0BABE0070C51E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FoodpicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = FoodpicTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Foodpic.app/Foodpic";
+			};
+			name = Debug;
+		};
+		B2BAA9DA19A0BABE0070C51E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FoodpicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = FoodpicTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Foodpic.app/Foodpic";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2BAA9B419A0BABE0070C51E /* Build configuration list for PBXProject "Foodpic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2BAA9D319A0BABE0070C51E /* Debug */,
+				B2BAA9D419A0BABE0070C51E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2BAA9D519A0BABE0070C51E /* Build configuration list for PBXNativeTarget "Foodpic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2BAA9D619A0BABE0070C51E /* Debug */,
+				B2BAA9D719A0BABE0070C51E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2BAA9D819A0BABE0070C51E /* Build configuration list for PBXNativeTarget "FoodpicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2BAA9D919A0BABE0070C51E /* Debug */,
+				B2BAA9DA19A0BABE0070C51E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B2BAA9B119A0BABE0070C51E /* Project object */;
+}

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="heR-Tg-XDB">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Menu Item Switcher View Controller-->
+        <scene sceneID="Ukz-vd-A6M">
+            <objects>
+                <viewController storyboardIdentifier="MenuItemSwitcher" id="aJW-um-Ya4" customClass="MenuItemSwitcherViewController" customModule="Foodpic" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="PPM-7x-2Bf"/>
+                        <viewControllerLayoutGuide type="bottom" id="7Qn-R0-K2I"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="QdQ-WC-RnW">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Original Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1As-NW-JAf">
+                                <rect key="frame" x="252" y="554" width="96" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.49803921580314636" green="0.49803921580314636" blue="0.49803921580314636" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView autoresizesSubviews="NO" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jN0-pa-AbS">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="489"/>
+                                <color key="backgroundColor" red="0.25098040700000002" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="1" y="1" width="1" height="1"/>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="16" y="25" width="368" height="459"/>
+                                </variation>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Translation of Item" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pRr-kC-Jze">
+                                <rect key="frame" x="229" y="505" width="142" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="1As-NW-JAf" secondAttribute="centerX" id="0ib-9Z-rhn"/>
+                            <constraint firstItem="jN0-pa-AbS" firstAttribute="leading" secondItem="QdQ-WC-RnW" secondAttribute="leadingMargin" id="BoE-uy-Htw"/>
+                            <constraint firstAttribute="centerX" secondItem="pRr-kC-Jze" secondAttribute="centerX" id="NXu-rv-ZUE"/>
+                            <constraint firstItem="1As-NW-JAf" firstAttribute="top" secondItem="pRr-kC-Jze" secondAttribute="bottom" constant="25" id="hfO-wr-Qud"/>
+                            <constraint firstItem="jN0-pa-AbS" firstAttribute="top" secondItem="QdQ-WC-RnW" secondAttribute="topMargin" id="iCM-rS-dCC"/>
+                            <constraint firstItem="7Qn-R0-K2I" firstAttribute="top" secondItem="jN0-pa-AbS" secondAttribute="bottom" constant="115" id="ktg-uv-GTj"/>
+                            <constraint firstItem="pRr-kC-Jze" firstAttribute="top" secondItem="jN0-pa-AbS" secondAttribute="bottom" constant="25" id="nex-EP-gDx"/>
+                            <constraint firstItem="jN0-pa-AbS" firstAttribute="trailing" secondItem="QdQ-WC-RnW" secondAttribute="trailingMargin" id="nhY-7R-AWo"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="mainImage" destination="jN0-pa-AbS" id="HpA-fX-BuJ"/>
+                        <outlet property="originalName" destination="1As-NW-JAf" id="OFg-LC-PWw"/>
+                        <outlet property="translation" destination="pRr-kC-Jze" id="Dls-Ou-cAT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZPE-bs-Gna" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1177" y="1140"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="9Xb-kb-scc">
+            <objects>
+                <viewController id="heR-Tg-XDB" customClass="ViewController" customModule="Foodpic" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="aBA-K8-9Sg"/>
+                        <viewControllerLayoutGuide type="bottom" id="wPF-gf-waN"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="lUh-2K-vNx">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Visit Nautilo or Mumbai to see something" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mhi-ui-EXG">
+                                <rect key="frame" x="16" y="289" width="568" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerY" secondItem="Mhi-ui-EXG" secondAttribute="centerY" id="3Lz-Ki-eGw"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Mhi-ui-EXG" secondAttribute="trailing" constant="5" id="P7c-D6-ikE"/>
+                            <constraint firstAttribute="centerX" secondItem="Mhi-ui-EXG" secondAttribute="centerX" id="Uup-Ti-b6U"/>
+                            <constraint firstItem="Mhi-ui-EXG" firstAttribute="leading" secondItem="lUh-2K-vNx" secondAttribute="leadingMargin" constant="5" id="mQy-3U-pAs"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Vbo-7K-Ega" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="T6c-Oo-M0A">
+            <objects>
+                <viewController id="CJN-Pb-ut8" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="5mZ-JC-37d"/>
+                        <viewControllerLayoutGuide type="bottom" id="kLX-CB-7wD"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Pye-R6-RPZ">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="B5I-Eh-2EW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

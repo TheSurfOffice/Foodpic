@@ -1,0 +1,133 @@
+{
+  "name": "Nautilus",
+  "items": [
+    {
+      "name": "Queso plancha con pesto",
+      "price": 0,
+      "image": "cheese_with_pesto.png",
+      "translations": {
+        "en": "Cheese with pesto"
+      }
+    },
+    {
+      "name": "Ensaladilla rusa con marisco",
+      "price": 0,
+      "image": "russian_salad_with_seafood.png",
+      "translations": {
+        "en": "Russian salad with seafood"
+      }
+    },
+    {
+      "name": "Gambones estilo Thai",
+      "price": 0,
+      "image": "thai_style_shrimps.png",
+      "translations": {
+        "en": "Thai style shrimps"
+      }
+    },
+    {
+      "name": "Arroz negro con calamares",
+      "price": 0,
+      "image": "black_rice_with_squid.png",
+      "translations": {
+        "en": "Black rice with squid"
+      }
+    },
+    {
+      "name": "Couscous de sama",
+      "price": 0,
+      "image": "couscous_with_sama_fish.png",
+      "translations": {
+        "en": "Couscous with sama fish"
+      }
+    },
+    {
+      "name": "Atún rojo",
+      "price": 0,
+      "image": "red_tuna.png",
+      "translations": {
+        "en": "Red tuna"
+      }
+    },
+    {
+      "name": "Pescado en aceite de oliva",
+      "price": 0,
+      "image": "fish_with_salad.png",
+      "translations": {
+        "en": "Fish with salad"
+      }
+    },
+    {
+      "name": "Merluza a la asturiana",
+      "price": 0,
+      "image": "hake_fish.png",
+      "translations": {
+        "en": "Hake fish"
+      }
+    },
+    {
+      "name": "Pulpo plancha con mojo",
+      "price": 0,
+      "image": "octopus_with_mojo_sauce.png",
+      "translations": {
+        "en": "Octopus with mojo sauce"
+      }
+    },
+    {
+      "name": "Fula de altura",
+      "price": 0,
+      "image": "fresh_fish.png",
+      "translations": {
+        "en": "Fresh fish (750g)"
+      }
+    },
+    {
+      "name": "Setas salteadas con gambones",
+      "price": 0,
+      "image": "salt_mushrooms_with_shrimps.png",
+      "translations": {
+        "en": "Salt mushrooms with shrimps"
+      }
+    },
+    {
+      "name": "Fideuá de almejas y mejillones",
+      "price": 0,
+      "image": "fideua_noodles_with_seafood.png",
+      "translations": {
+        "en": "Fideuá noodles with seafood"
+      }
+    },
+    {
+      "name": "Tataki de atún rojo",
+      "price": 0,
+      "image": "tataki_of_red_tuna.png",
+      "translations": {
+        "en": "Tataki of red tuna"
+      }
+    },
+    {
+      "name": "Tartar de atún rojo",
+      "price": 0,
+      "image": "tuna_tartare.png",
+      "translations": {
+        "en": "Tuna tartare"
+      }
+    },
+    {
+      "name": "Mousse de chocolate",
+      "price": 0,
+      "image": "chocolate_mousse.png",
+      "translations": {
+        "en": "Chocolate mousse"
+      }
+    },
+    {
+      "name": "Crumble de plátano",
+      "price": 0,
+      "image": "creme_brulee_with_ice_cream.png",
+      "translations": {
+        "en": "Crème brûlée with ice cream"
+      }
+    }
+  ]
+}

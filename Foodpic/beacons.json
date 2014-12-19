@@ -1,0 +1,35 @@
+{
+  "comment": "Test Beacons file",
+  "beacons": [
+    {
+      "comment": "Blueberry Beacon for Nautilus",
+      "UUID": "B9407F30-F5F8-466E-AFF9-25556B57FE6D",
+      "major": 40332,
+      "minor": 30239,
+      "actions": [
+        {
+          "id": 1,
+          "meters": 20,
+          "entryAction": "ShowMenu",
+          "exitAction": "HideMenu",
+          "entryObject": "nautilus"
+        }
+      ]
+    },
+    {
+      "comment": "Ice Beacon for Mumbai",
+      "UUID": "B9407F30-F5F8-466E-AFF9-25556B57FE6D",
+      "major": 15842,
+      "minor": 49705,
+      "actions": [
+        {
+          "id": 1,
+          "meters": 20,
+          "entryAction": "ShowMenu",
+          "exitAction": "HideMenu",
+          "entryObject": "mumbai"
+        }
+      ]
+    }
+  ]
+}

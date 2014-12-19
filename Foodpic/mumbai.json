@@ -1,0 +1,157 @@
+{
+  "name": "Mumbai Sunset Bar",
+  "items": [
+    {
+      "name": "Cortado largo",
+      "price": 0,
+      "image": "coffee_with_milk.png",
+      "translations": {
+        "en": "Coffee with milk"
+      }
+    },
+    {
+      "name": "Café leche leche",
+      "price": 0,
+      "image": "coffee_with_condensed_milk.png",
+      "translations": {
+        "en": "Coffee with condensed milk"
+      }
+    },
+    {
+      "name": "Chocolate supreme",
+      "price": 0,
+      "image": "chocolate_with_ice_and_baileys.png",
+      "translations": {
+        "en": "Chocolate with ice and baileys"
+      }
+    },
+    {
+      "name": "Tropical",
+      "price": 0,
+      "image": "tropical_beer.png",
+      "translations": {
+        "en": "Tropical beer"
+      }
+    },
+    {
+      "name": "Tropical Limón",
+      "price": 0,
+      "image": "radler_beer_tropical.png",
+      "translations": {
+        "en": "Radler beer Tropical"
+      }
+    },
+    {
+      "name": "Nachos con guacamole",
+      "price": 0,
+      "image": "tortilla_chips_with_guacamole.png",
+      "translations": {
+        "en": "Tortilla chips with guacamole"
+      }
+    },
+    {
+      "name": "Sandwich de tortilla",
+      "price": 0,
+      "image": "sandwich_with_tortilla.png",
+      "translations": {
+        "en": "Sandwich with tortilla"
+      }
+    },
+    {
+      "name": "Sandwich crema de aguacate y Philadelfia",
+      "price": 0,
+      "image": "sandwich_with_avocado_and_philadelfia.png",
+      "translations": {
+        "en": "Sandwich with avocado and Philadelfia"
+      }
+    },
+    {
+      "name": "Bocadillo de jamón serano",
+      "price": 0,
+      "image": "sandwich_with_spanish_ham.png",
+      "translations": {
+        "en": "Sandwich with Spanish ham"
+      }
+    },
+    {
+      "name": "Triple Mumbai sandwich",
+      "price": 0,
+      "image": "triple_sandwich_with_tortilla_chips.png",
+      "translations": {
+        "en": "Triple sandwich with tortilla chips"
+      }
+    },
+    {
+      "name": "Ensalada de tomate, aguacate y 3 quesos",
+      "price": 0,
+      "image": "salad_with_tomato_avocado_and_cheese.png",
+      "translations": {
+        "en": "Salad with tomato, avocado and cheese"
+      }
+    },
+    {
+      "name": "Ensalada y rúcula y parmasano",
+      "price": 0,
+      "image": "salad_with_rocket_and_parmesan.png",
+      "translations": {
+        "en": "Salad with rocket and parmesan"
+      }
+    },
+    {
+      "name": "Ensalada atún",
+      "price": 0,
+      "image": "tuna_salad.png",
+      "translations": {
+        "en": "Tuna salad"
+      }
+    },
+    {
+      "name": "Ensalada Mumbai",
+      "price": 0,
+      "image": "huge_salad_with_ham.png",
+      "translations": {
+        "en": "Huge salad with ham"
+      }
+    },
+    {
+      "name": "Trenza de chocolate",
+      "price": 0,
+      "image": "chocolate_twist.png",
+      "translations": {
+        "en": "Chocolate twist"
+      }
+    },
+    {
+      "name": "Mojito",
+      "price": 0,
+      "image": "mojito.png",
+      "translations": {
+        "en": "Mojito"
+      }
+    },
+    {
+      "name": "Cóctel a base de Ron Zacapa",
+      "price": 0,
+      "image": "coctail_based_on_zacapa_rum.png",
+      "translations": {
+        "en": "Coctail based on Zacapa rum"
+      }
+    },
+    {
+      "name": "Gin tonic",
+      "price": 0,
+      "image": "gin_tonic.png",
+      "translations": {
+        "en": "Gin tonic (20 types)"
+      }
+    },
+    {
+      "name": "Coco-loco",
+      "price": 0,
+      "image": "coco-loco_coctail.png",
+      "translations": {
+        "en": "Coco-loco coctail"
+      }
+    }
+  ]
+}
