@@ -20,7 +20,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Original Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1As-NW-JAf">
                                 <rect key="frame" x="252" y="554" width="96" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.49803921580314636" green="0.49803921580314636" blue="0.49803921580314636" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.60784313725490191" green="0.60784313725490191" blue="0.60784313725490191" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView autoresizesSubviews="NO" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jN0-pa-AbS">
@@ -31,24 +31,32 @@
                                     <rect key="frame" x="16" y="25" width="368" height="459"/>
                                 </variation>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Translation of Item" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pRr-kC-Jze">
-                                <rect key="frame" x="229" y="505" width="142" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Translation of Item" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pRr-kC-Jze">
+                                <rect key="frame" x="0.0" y="505" width="600" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
+                                <color key="textColor" red="0.29019607843137257" green="0.29019607843137257" blue="0.29019607843137257" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="centerX" secondItem="1As-NW-JAf" secondAttribute="centerX" id="0ib-9Z-rhn"/>
                             <constraint firstItem="jN0-pa-AbS" firstAttribute="leading" secondItem="QdQ-WC-RnW" secondAttribute="leadingMargin" id="BoE-uy-Htw"/>
+                            <constraint firstItem="pRr-kC-Jze" firstAttribute="leading" secondItem="QdQ-WC-RnW" secondAttribute="leadingMargin" constant="5" id="MoA-xa-YBn"/>
                             <constraint firstAttribute="centerX" secondItem="pRr-kC-Jze" secondAttribute="centerX" id="NXu-rv-ZUE"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="pRr-kC-Jze" secondAttribute="trailing" constant="5" id="hA9-Ma-Wbe"/>
                             <constraint firstItem="1As-NW-JAf" firstAttribute="top" secondItem="pRr-kC-Jze" secondAttribute="bottom" constant="25" id="hfO-wr-Qud"/>
                             <constraint firstItem="jN0-pa-AbS" firstAttribute="top" secondItem="QdQ-WC-RnW" secondAttribute="topMargin" id="iCM-rS-dCC"/>
                             <constraint firstItem="7Qn-R0-K2I" firstAttribute="top" secondItem="jN0-pa-AbS" secondAttribute="bottom" constant="115" id="ktg-uv-GTj"/>
                             <constraint firstItem="pRr-kC-Jze" firstAttribute="top" secondItem="jN0-pa-AbS" secondAttribute="bottom" constant="25" id="nex-EP-gDx"/>
                             <constraint firstItem="jN0-pa-AbS" firstAttribute="trailing" secondItem="QdQ-WC-RnW" secondAttribute="trailingMargin" id="nhY-7R-AWo"/>
+                            <constraint firstItem="pRr-kC-Jze" firstAttribute="leading" secondItem="QdQ-WC-RnW" secondAttribute="leadingMargin" constant="-16" id="vUU-rY-DqK"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="vUU-rY-DqK"/>
+                            </mask>
+                        </variation>
                     </view>
                     <connections>
                         <outlet property="mainImage" destination="jN0-pa-AbS" id="HpA-fX-BuJ"/>
@@ -72,8 +80,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Visit Nautilo or Mumbai to see something" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mhi-ui-EXG">
-                                <rect key="frame" x="16" y="289" width="568" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Visit Nautilo or Mumbai to see something" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mhi-ui-EXG">
+                                <rect key="frame" x="16" y="213" width="568" height="180"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
